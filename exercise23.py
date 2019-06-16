@@ -6,7 +6,7 @@
 def new_string(str, n):
     if len(str) < 2:
         return str * n
-    return 1
+    return str[:2] * n
 
 
 str = input("Enter a string: ")
